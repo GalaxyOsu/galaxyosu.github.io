@@ -1,0 +1,65 @@
+/* Code goes here */
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #432f70 0%, #1b0047 100%);
+    border: 3px solid #ffffff;
+    margin: 0;
+}
+
+h1.welcome {
+    color: rgb(133, 141, 255);
+    font-size: 40px;
+    margin: 0.4cm;
+    text-align: center;
+}
+
+div.boop {
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 0.4cm;
+    margin: 0.4cm;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    max-width: 600px;
+}
+  
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+img.icon {
+    width: 100px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 30px
+}
+
+.column:hover {
+    transform: scale(1.1);
+}
+
+div.mobile {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        font-size: 14px;
+    }
+}
