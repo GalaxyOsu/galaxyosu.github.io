@@ -1,16 +1,27 @@
+<!-- If you're reading this, you know how to read -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+        let fav_num = Math.floor(Math.random() * 11);
+
+        let favicon = document.createElement('link');
+        favicon.rel = 'icon';
+        favicon.href = `favicon/favicon${fav_num}.ico`;
+
+        document.head.appendChild(favicon);
+  </script>
   <title>Welcome!</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="woosh">
   </div>
-    <!-- This is hilarious.
+    <!-- This is hilarious, or is it? -->
+    <!--
     <script>
       window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     </script> -->
@@ -52,7 +63,10 @@
         <span>Click to copy! ↑ </span>
         <br>
         Twitter: <a href="https://twitter.com/galaxyminuswhat">@galaxyminuswhat</a>
-        
+      </div>
+
+      <div class="thing">
+        <a href="https://github.com/GalaxyOsu/galaxyosu.github.io/">View Source in <img class="github" src="./img/GitHub.png" alt="GitHub"></a>
       </div>
     </center>
 </body>

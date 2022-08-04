@@ -58,6 +58,22 @@ div.mobile {
     visibility: hidden;
 }
 
+img.github {
+    width: 170px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+div.thing>a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.7cm;
+}
+
+div.thing {
+    background-color: white;
+}
+
 @media screen and (max-width: 600px) {
     .column {
         font-size: 14px;
@@ -67,6 +83,16 @@ div.mobile {
     }
     .column#a:hover {
         transform: scale(1.02);
+    }
+    img.github {
+        width: 120px;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+    div.thing>a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.5cm;
     }
 }
 
