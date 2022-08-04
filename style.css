@@ -117,3 +117,9 @@ div.woosh {
         transform: scaleX(0)
     }
 }
+
+a#copy {
+    color: rgb(42, 48, 128);
+    text-decoration: none;
+    font-weight: bold;
+}
