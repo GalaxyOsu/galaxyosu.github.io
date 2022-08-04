@@ -8,7 +8,10 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- <script>
+  <div class="woosh">
+  </div>
+    <!-- This is hilarious.
+    <script>
       window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
     </script> -->
     <h1 class="welcome">
@@ -21,25 +24,32 @@
         I am not interesting, that's for sure.
       </div>
       <div class="row">
-        <div class="column" style="background-color: rgb(138, 0, 0)">
+        <div class="column" style="background: linear-gradient(to top right, #8a0000 0%, #ff3333 100%);">
           <h2>My YouTube</h2>
             <a href="https://www.youtube.com/c/Galaxyosu/"><img class="icon" src="./img/youtube.png" alt="YouTube"></a>
         </div>
-        <div class="column" style="background-color: rgb(99, 0, 138)">
+        <div class="column" style="background: linear-gradient(to top right, rgb(72, 0, 100) 0%, #ad33ff 100%);">
           <h2>My Twitch</h2>
             <a href="https://www.twitch.tv/itsgalaxyosu"><img class="icon" src="./img/twitch.png" alt="Twitch"></a>
         </div>
       </div>
       <div class="row">
-        <div class="column" style="background-color: rgb(77, 118, 255)">
+        <div class="column" id="a" style="background: linear-gradient(to top right, #11429c 10%, #4d76ff 100%);">
           <h2>My Discord Bot</h2>
             <a href="./bot.html"><img class="icon" src="./img/discord.png" alt="YouTube"></a>
         </div>
       </div>
       <div class="boop">
+        <script>
+          function copy() {
+            var copyText = "Galaxy-#5983";
+            navigator.clipboard.writeText(copyText);
+          }
+        </script>
         Other stuff: <br> <br>
-
-        Discord: Galaxy-#5983
+        Discord: <span onclick="copy()">Galaxy-#5983</span>
+        <br>
+        <span>Click to copy! ↑ </span>
         <br>
         Twitter: <a href="https://twitter.com/galaxyminuswhat">@galaxyminuswhat</a>
         

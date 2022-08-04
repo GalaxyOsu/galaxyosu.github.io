@@ -62,4 +62,32 @@ div.mobile {
     .column {
         font-size: 14px;
     }
+    .column:hover {
+        transform: scale(1.05);
+    }
+    .column#a:hover {
+        transform: scale(1.02);
+    }
+}
+
+div.woosh {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: all 1s ease-in-out;
+    animation: woosh 1s ease-in-out none;
+    -webkit-animation: woosh 1s ease-in-out none;
+    animation-fill-mode: forwards;
+}
+
+@keyframes woosh {
+    0% {
+        transform: scaleX(1)
+    }
+    100% {
+        transform: scaleX(0)
+    }
 }
