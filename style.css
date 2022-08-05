@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #432f70 0%, #1b0047 100%);
+    background: linear-gradient(to bottom right, #432f70 0%, #0f0027 100%);
     border: 3px solid #ffffff;
     margin: 0;
 }
@@ -41,8 +41,8 @@ div.boop {
     border: 5px solid white;
     border-radius: 15px;
     transition: all .3s ease-in-out;
+    font-weight: bolder;
 }
-
 img.icon {
     width: 100px;
     height: auto;
@@ -123,3 +123,5 @@ a#copy {
     text-decoration: none;
     font-weight: bold;
 }
+
+
