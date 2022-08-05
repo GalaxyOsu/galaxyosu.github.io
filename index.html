@@ -8,6 +8,12 @@
   <title>Welcome!</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="shortcut icon" href="./img/AYAYA.png" type="image/x-icon">
+  <script>
+    console.log("%cStop reading my code!!", "color: red; font-size: 30px; font-weight: bold;");
+    setTimeout(function() {
+      console.log("%cpls?", "color: white; font-size: 20px;");
+    }, 10000);
+  </script>
 </head>
 <body>
   <div class="woosh">
@@ -84,10 +90,12 @@
               case 30:
               document.getElementById("copied").innerHTML = "Copied! (You copied this 30 times, is that enough for you?)";
                 break;
+              case 31:
+              document.getElementById("copied").innerHTML = "i am tired of writing stuff to say, i'll just make a script";
+                break;
             }
-            if (times > 30) {
+            if (times > 31) {
               let messages = [
-              "i am tired of writing stuff to say, i'll just make a script", 
               "you know, you're pretty funny, false, i am just kidding", 
               "stop.", 
               "sotp", 
@@ -110,6 +118,7 @@
               "You unlocked a secret message! oh wait, you didn't",
               "secret message",
               ]
+              
               document.getElementById("copied").style.color = "black";
               document.getElementById("copied").style.fontWeight = "normal";
               let random = Math.floor(Math.random() * (messages.length));
