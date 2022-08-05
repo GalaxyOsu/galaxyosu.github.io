@@ -114,6 +114,7 @@
               document.getElementById("copied").style.fontWeight = "normal";
               let random = Math.floor(Math.random() * (messages.length));
               let string = messages[random];
+              console.log(string);
               if (string == "secret message") {
                 document.getElementById("copied").style.color = "#FFD700";
                 document.getElementById("copied").style.fontWeight = "bold";
