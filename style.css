@@ -5,9 +5,9 @@
 }
 
 body {
-    background: linear-gradient(to bottom right, #432f70 0%, #0f0027 100%);
-    border: 3px solid #ffffff;
-    margin: 0;
+    background-image: url(./img/vector-jan-2021-19_generated.jpg);
+    background-size: cover;
+    /* background: linear-gradient(to bottom right, #432f70 0%, #0f0027 100%); */
 }
 
 h1.welcome {
